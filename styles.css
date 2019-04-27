@@ -1,3 +1,39 @@
-body {
-    background-color: yellow; 
+body{
+  background-color: red;
+  margin: 0;
+}
+h1{
+  color: darkblue;
+  margin: 0; /* Removes space around title */
+  padding: 1em;
+  font-size: 2em;
+  font-family: Papyrus, sans-serif, Arial, Georgia;
+  text-align: center;
+}
+header {
+  background-color: white;
+}
+nav {
+  background-color: darkblue;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: white;
+  background-color: lightblue;
+  display: inline-block; /* This eliminates the width of the default box */
+
+}
+a {
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  padding:0.5em 1em; /* The two values represent top and bottom and letf and right margins */
+}
+
+a:hover {
+  color: darkblue;
+  font-wieght: bold;
 }
