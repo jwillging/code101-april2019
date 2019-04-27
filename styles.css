@@ -1,12 +1,12 @@
 body{
-  background-color: red;
+  background-color: darkblue;
   margin: 0;
 }
 h1{
   color: darkblue;
   margin: 0; /* Removes space around title */
-  padding: 1em;
-  font-size: 2em;
+  padding: 0.5em;
+  font-size: 3em;
   font-family: Papyrus, sans-serif, Arial, Georgia;
   text-align: center;
 }
@@ -16,24 +16,72 @@ header {
 nav {
   background-color: darkblue;
 }
-ul {
+nav ul {
   margin: 0;
   padding: 0;
 }
-li {
+nav li {
   color: white;
   background-color: lightblue;
   display: inline-block; /* This eliminates the width of the default box */
 
 }
-a {
+nav a {
   color: red;
   text-decoration: none;
   display: inline-block;
   padding:0.5em 1em; /* The two values represent top and bottom and letf and right margins */
 }
 
-a:hover {
+nav a:hover {
   color: darkblue;
   font-wieght: bold;
+}
+#calendar {
+  display: inline-block;
+  background-color: blue;
+  float: left;
+  padding-top: 0.5em;
+  color: white;
+}
+
+#calendar strong {
+  color: lightblue;
+}
+
+#calendar ul {
+    list-style: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-style: italic;
+}
+section {
+  background-color: lightyellow;
+}
+
+h2, h3 {
+    margin: 0;
+}
+h2 {
+  padding: 0.5em;
+  font-size: 2em;
+  text-indent: 0.5em;
+}
+h3 {
+  text-indent: 0.5em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section p {
+  margin-top: 0;
 }
