@@ -1,9 +1,9 @@
 body{
-  background-color: darkblue;
+  background-color: #CAE7B9;
   margin: 0;
 }
 h1{
-  color: darkblue;
+  color: #7e7f9a;
   margin: 0; /* Removes space around title */
   padding: 0.5em;
   font-size: 3em;
@@ -11,10 +11,10 @@ h1{
   text-align: center;
 }
 header {
-  background-color: white;
+  background-color: #f3de8a;
 }
 nav {
-  background-color: darkblue;
+  background-color: #CAE7B9;
 }
 nav ul {
   margin: 0;
@@ -22,12 +22,12 @@ nav ul {
 }
 nav li {
   color: white;
-  background-color: lightblue;
+  background-color: #baacbd;
   display: inline-block; /* This eliminates the width of the default box */
 
 }
 nav a {
-  color: red;
+  color: #7e7f9a;
   text-decoration: none;
   display: inline-block;
   padding:0.5em 1em; /* The two values represent top and bottom and letf and right margins */
@@ -42,12 +42,12 @@ nav a:hover {
 
   float: left;
   padding-top: 0.5em;
-  color: white;
+  color: #eb9486;
   width:350px;
 }
 
 #calendar strong {
-  color: lightblue;
+  color: #eb9486;
 }
 
 #calendar ul {
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 section {
-  background-color: lightyellow;
+  background-color: #eb9486;
   margin-left: 350px;
   padding: 0.5em;
 }
@@ -92,11 +92,11 @@ section p {
 }
 
 main {
-  background-color: blue;
+  background-color: #cae7b9;
 }
 
 footer {
-  color: white
+  color: #7e7f9a
 }
 
 #footer ul {
